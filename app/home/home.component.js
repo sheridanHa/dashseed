@@ -12,8 +12,6 @@ var core_1 = require('@angular/core');
 var HomeComponent = (function () {
     function HomeComponent() {
         this.pageTitle = "Home";
-        // var $ = jQuery.noConflict(); 
-        // $(document).ready(function(){});  
         console.log("init home");
         console.log(window.location.pathname);
     }
